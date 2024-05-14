@@ -1,0 +1,13 @@
+@import "mixins";
+
+.mainPage {
+   display: flex;
+   flex-direction: column;
+
+   &__title {
+      @include ubuntuMedium();
+      font-size: 28px;
+      line-height: 33px;
+      text-align: center;
+   }
+}
